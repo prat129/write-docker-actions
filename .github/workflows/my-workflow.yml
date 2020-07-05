@@ -16,6 +16,7 @@ jobs:
 
       - name: meow
         uses: ./.github/actions/cat-facts
+        
       - name: create-issue
         uses: ./.github/actions/issue-maker
         with:
